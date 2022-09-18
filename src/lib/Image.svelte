@@ -1,5 +1,5 @@
 <script>
-    import src from './assets/profile.webp';
+    import src from './../assets/profile.webp';
     const name = "Krzysztof Królikowski";
 
     const zipCode = (code, location) => {

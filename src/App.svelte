@@ -1,8 +1,9 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
-  import Hello from './Hello.svelte'
-  import Image from './Image.svelte'
+  import Hello from './lib/Hello.svelte'
+  import Image from './lib/Image.svelte'
+  import SumNumbers from "./lib/SumNumbers.svelte";
 </script>
 
 <main>
@@ -17,6 +18,7 @@
   <h1>Vite + Svelte</h1>
 
   <div class="card">
+    <SumNumbers />
     <Counter />
     <Hello />
     <Image />
