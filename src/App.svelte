@@ -1,14 +1,16 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import Hello from './Hello.svelte'
+  import Image from './Image.svelte'
 </script>
 
 <main>
   <div>
-    <a href="https://vitejs.dev" target="_blank"> 
+    <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
     </a>
-    <a href="https://svelte.dev" target="_blank"> 
+    <a href="https://svelte.dev" target="_blank">
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
@@ -16,6 +18,8 @@
 
   <div class="card">
     <Counter />
+    <Hello />
+    <Image />
   </div>
 
   <p>
